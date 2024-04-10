@@ -58,10 +58,12 @@ nav .header_right .nav-heading {
 }
 
 nav .header_right .algos {
-  display: grid;
-  grid-template-columns: repeat(6, 16.66667%);
+  /* display: grid; */
+  /* grid-template-columns: repeat(6, 16.66667%); */
   place-content: center;
   padding: 2% 0%;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav .header_right .algos button {
