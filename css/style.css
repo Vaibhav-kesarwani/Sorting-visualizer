@@ -63,6 +63,7 @@ nav .array-inputs {
 nav .array-inputs #a_size,
 nav .array-inputs #a_speed {
   /* any style when required */
+  cursor: pointer;
 }
 
 nav .array-inputs #a_generate {
