@@ -151,10 +151,9 @@ nav .header_right .algos {
 
 nav .header_right .algos button {
   background-color: transparent;
-  border: 2px solid #f5f5f5;
   gap: 10px;
   color: white;
-  outline: none;
+  outline: 1px;
   padding: 10px;
   font-size: x-large;
   border-radius: 20px;
@@ -173,6 +172,7 @@ nav .header_right .algos .butt_unselected:hover {
 }
 
 nav .header_right .algos .butt_selected {
+  border: 2px solid yellow;
   background-color: #f5f5f5;
   color: black;
 }
